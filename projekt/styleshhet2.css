@@ -2,6 +2,7 @@ body{
     background-color: rgb(203, 242, 242);
     display: flex;
     height: 100%;
+    overflow-x: auto;
 }
 img{
     opacity: 1;
@@ -33,3 +34,8 @@ h1{
 }
 
 
+@media (max-width: 768px) /* mobil */ {
+    body {
+      display: block;
+    }
+}
