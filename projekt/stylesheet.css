@@ -1,7 +1,7 @@
 h1 {
 color:rgb(27, 141, 213);
 position: absolute;
-left: 50vw;
+left: 42vw;
 top: 10vh;
 }
 h1:hover{
@@ -26,7 +26,8 @@ a:hover{
 a{
     color: #1f665d;
     position: absolute;
-    left: 50vw ;
+    left: 38vw ;
     top: 90vh;
     font-size: 200%;
+    
 }
