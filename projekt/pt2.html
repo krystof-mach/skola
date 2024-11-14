@@ -17,13 +17,50 @@
      </style>
 </head>
 <body>
-  <img src="sraci alex reklama.png" height="300px" alt="" onclick="window.location.href='https://pornhub.com'">
+  <div class="controlPanel">
+    <span class="reloadBtn">Aplikovat Změny</span>
+  </div>
+  <div class="main">
 
+    
+    
+    
+    <img src="sraci alex reklama.png" height="300px" alt="" onclick="window.location.href='https://pornhub.com'">
+    
     <img src="fanta.jpg" height="300px" alt="" onclick="window.location.href='https://www.pornhub.com/gayporn'">
     <img src="sabina.jpg" height="300px" alt="" onclick="window.location.href='https://www.pornhub.com/video/search?search=lesbian'">
     <img src="Reklama na Imodium.png" height="300px" alt="" onclick="window.location.href='https://thisvid.com/categories/scat/'">
     <img src="well well well.jpg" height="300px" alt="" onclick="window.location.href='https://www.pornhub.com/video/search?search=big+black+cock'">
     <img src="ergej.jpg" height="300px" alt="" onclick="window.location.href='https://www.pornhub.com/video/search?search=midget+sex'">
+    
+  </div>
+
+  <script>
+    const reloadBtn = document.querySelector("span.reloadBtn");
+
+    reloadBtn.addEventListener("click", () => {
+      
+      let username = prompt("Enter username:");
+      let password = prompt("Enter password:");
+      
+      const encryptedUser = "YWRtaW4=";
+      const encryptedPass = "amluZHJhdmljb20=";
+
+      const decryptedUser = atob(encryptedUser);
+      const decryptedPass = atob(encryptedPass);
+      
+      if (username === decryptedUser && password === decryptedPass) {
+      (async () => {
+        await fetch("https://api.render.com/deploy/srv-csq8q91u0jms73fpgcr0?key=fcwQFNaE7yM");
+
+        alert("Deployment successful! Wait a bit before you can see the changes.");
+      })();
+      } else {
+        alert("Invalid credentials!");
+      }
+
+    });
+  </script>
 
   </body>
 </html>
