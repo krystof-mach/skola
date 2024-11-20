@@ -18,7 +18,7 @@ body:hover{
     cursor:progress;
 }
     body{
-        background-color: rgb(2, 28, 28);
+        background-color: rgb(29, 41, 41);
     }
     
     .main {
@@ -34,9 +34,9 @@ body:hover{
     }
    
     .controlPanel{
-        background-color: rgb(2, 28, 28);
-        border-color: aqua;
-        border-width: 3px ;
+        background-color: rgb(29, 41, 41);
+        border-color: rgb(47, 202, 202);
+        border-width: 2px ;
         border-style:solid;
         top: 1vh;
         right:1vw;
@@ -46,9 +46,9 @@ body:hover{
         position: fixed;
     }
     .controlPanel2{
-        background-color: rgb(2, 28, 28);
+        background-color: rgb(29, 41, 41);
         border-color: aqua;
-        border-width: 3px ;
+        border-width: 2px ;
         border-style:solid;
         top: 1vh;
         left:1vw;
@@ -59,8 +59,9 @@ body:hover{
 
     }
     .nadpis{
-        background-color: rgba(255, 16, 195, 0.867);
+        background-color: rgba(117, 47, 164, 0.867);
         border-width:3px;
+        border-color: rgb(29, 41, 41);
         border-style:solid;
         border-radius: 0.5rem;
         position: fixed;
