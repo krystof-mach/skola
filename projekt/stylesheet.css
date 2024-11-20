@@ -1,33 +1,33 @@
 h1 {
-color:rgb(27, 141, 213);
-position: absolute;
-left: 42vw;
-top: 10vh;
-}
-h1:hover{
-    color:#ff5fa2;
-    opacity: 0;
-    
-}
-body{
-    animation: pomoc 10s infinite; 
-}
-@keyframes pomoc {
-    from{background-color: rgb(255, 194, 194);}
-    
-    to{background-color: rgb(255, 189, 225);}
-
-}
-a:hover{
-    font-size: 210%;
-    color:#ff5fa2;
-
-}
-a{
-    color: #1f665d;
+    color:rgb(27, 141, 213);
     position: absolute;
-    left: 38vw ;
-    top: 90vh;
-    font-size: 200%;
+    left: 42vw;
+    top: 10vh;
+    }
+    h1:hover{
+        color:#ff5fa2;
+        opacity: 0;
+        
+    }
+    body{
+        animation: pomoc 10s infinite; 
+    }
+    @keyframes pomoc {
+        from{background-color: rgb(255, 194, 194);}
+        
+        to{background-color: rgb(255, 189, 225);}
     
-}
+    }
+    a:hover{
+        font-size: 210%;
+        color:#ff5fa2;
+    
+    }
+    a{
+        color: #1f665d;
+        position: absolute;
+        left: 38vw ;
+        top: 90vh;
+        font-size: 200%;
+        
+    }
